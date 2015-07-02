@@ -42,12 +42,12 @@
 }
 
 - (void)testThatRemovingCheeseSuffixWorks {
-    NSString *fullCheeseString = @"Monterey Jack cheese";
-    NSString *cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
+    NSString *fullCfheeseString = @"Monterey Jack cheese";
+    NSString *cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCfheeseString];
     XCTAssertEqualObjects(cheeseNameOnly, @"Monterey Jack", @"Monterey Jack should be returned.");
 
-    fullCheeseString = @"Ambert cheese";
-    cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCheeseString];
+    fullCfheeseString = @"Ambert cheese";
+    cheeseNameOnly = [self.stringCheese cheeseNameWithoutCheeseSuffix:fullCfheeseString];
     XCTAssertEqualObjects(cheeseNameOnly, @"Ambert", @"Ambert should be returned.");
 }
 

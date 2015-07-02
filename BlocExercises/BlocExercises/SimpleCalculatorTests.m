@@ -27,12 +27,12 @@
 
 - (void) testThatIncrementsWork {
     NSInteger sourceNumber = 17;
-    NSInteger resultNumber = [self.calculator increaseNumberBy1:sourceNumber];
-    XCTAssertTrue(resultNumber == 18, @"17 + 1 = 18");
+    NSInteger result = [self.calculator increaseNumberBy1:sourceNumber];
+    XCTAssertTrue(result == 18, @"17 + 1 = 18");
 
     sourceNumber = 972;
-    resultNumber = [self.calculator increaseNumberBy1:sourceNumber];
-    XCTAssertTrue(resultNumber == 973, @"972 + 1 = 973");
+    result = [self.calculator increaseNumberBy1:sourceNumber];
+    XCTAssertTrue(result == 973, @"972 + 1 = 973");
 }
 
 - (void) testThatAdditionWorks {
