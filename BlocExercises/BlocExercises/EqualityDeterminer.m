@@ -8,8 +8,12 @@
 
 #import "EqualityDeterminer.h"
 
+
 @implementation EqualityDeterminer
 
+//+ (void) printALogStatement {
+//    NSLog(@"here we are");
+//}
 - (BOOL) string:(NSString *)string1 isTheSameAsString:(NSString *)string2 {
     BOOL areTheyEqual = [string1 isEqualToString:string2];
     return areTheyEqual;

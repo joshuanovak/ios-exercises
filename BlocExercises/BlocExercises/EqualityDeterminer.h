@@ -10,6 +10,8 @@
 
 @interface EqualityDeterminer : NSObject
 
+//+ (void) printALogStatement;
+
 /**
  Indicates whether two strings are the same using a character-based comparison.
  
