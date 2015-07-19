@@ -18,7 +18,7 @@
 - (NSArray *)arrayOfFavoriteDrinksForStarTrekCharacters:(NSArray *)charactersArray {
     NSMutableArray *drinks = [[NSMutableArray alloc]init];
     for (NSInteger i=0; i<charactersArray.count; i++) {
-        id drink = (charactersArray[i])[@"favorite drink"];
+        NSString *drink = (charactersArray[i])[@"favorite drink"];
         drinks[i] = drink;
     }
     return drinks;
